@@ -1,6 +1,7 @@
 packages:
   - 'app-shell'
   - 'overview'
+  - 'stats'
 
 catalog:
   '@tailwindcss/vite': 4.0.12
