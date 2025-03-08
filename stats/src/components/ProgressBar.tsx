@@ -22,7 +22,7 @@ export const ProgressBar = () => {
           </div>
           <Progress
             value={stat.value}
-            className="h-2"
+            className="st:h-2"
             color="indigo"
             highContrast
           />
