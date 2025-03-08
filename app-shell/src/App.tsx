@@ -1,6 +1,6 @@
 import { Card } from '@radix-ui/themes'
 import { Overview } from 'overviewApp/Overview'
-import { PokeStats } from './components/PokeStats'
+import { Stats } from 'statsApp/Stats'
 
 function App() {
   return (
@@ -9,12 +9,7 @@ function App() {
         <Overview />
 
         <div className="space-y-6">
-          <Card>
-            <div className="pt-6">
-              <h2 className="text-xl font-semibold mb-4">ステータス</h2>
-              <PokeStats />
-            </div>
-          </Card>
+          <Stats />
 
           <Card>
             <div className="pt-6">

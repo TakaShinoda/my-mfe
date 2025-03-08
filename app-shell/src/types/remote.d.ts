@@ -5,3 +5,8 @@ declare module 'overviewApp/Overview' {
   const Overview: React.FC
   export { Overview }
 }
+
+declare module 'statsApp/Stats' {
+  const Stats: React.FC
+  export { Stats }
+}
