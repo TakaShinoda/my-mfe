@@ -10,3 +10,8 @@ declare module 'statsApp/Stats' {
   const Stats: React.FC
   export { Stats }
 }
+
+declare module 'detailsApp/Details' {
+  const Details: React.FC
+  export { Details }
+}

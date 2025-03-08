@@ -12,7 +12,8 @@ export default defineConfig({
       name: 'app_shell',
       remotes: {
         overviewApp: 'http://localhost:5000/assets/remoteEntry.js',
-        statsApp: 'http://localhost:7000/assets/remoteEntry.js'
+        statsApp: 'http://localhost:7000/assets/remoteEntry.js',
+        detailsApp: 'http://localhost:9000/assets/remoteEntry.js'
       },
       shared: ['react','react-dom', 'tailwindcss']
     })
