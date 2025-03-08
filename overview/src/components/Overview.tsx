@@ -1,12 +1,15 @@
 import { Badge } from '@radix-ui/themes'
-import bulbasaur from '/bulbasaur.png'
 
 export const Overview = () => {
   return (
     <>
       <div className="ov:bg-muted/30 ov:rounded-lg ov:p-8 ov:flex ov:flex-col ov:items-center ov:justify-center">
         <div className="ov:relative ov:w-64 ov:h-64">
-          <img src={bulbasaur} alt="フシギダネ" className="ov:object-contain" />
+          <img
+            src="http://localhost:5000/bulbasaur.png"
+            alt="フシギダネ"
+            className="ov:object-contain"
+          />
         </div>
 
         <div className="ov:mt-4 ov:text-center">
