@@ -10,25 +10,25 @@ export const Details = () => {
             <dt className="de:text-sm de:font-medium de:text-muted-foreground">
               高さ
             </dt>
-            <dd>0.7 m</dd>
+            <dd>0.5 m</dd>
           </div>
           <div>
             <dt className="de:text-sm de:font-medium de:text-muted-foreground">
               重さ
             </dt>
-            <dd>6.9 kg</dd>
+            <dd>0.9 kg</dd>
           </div>
           <div>
             <dt className="de:text-sm de:font-medium de:text-muted-foreground">
               分類
             </dt>
-            <dd className="de:capitalize">たねポケモン</dd>
+            <dd className="de:capitalize">モンスター</dd>
           </div>
           <div>
             <dt className="de:text-sm de:font-medium de:text-muted-foreground">
               特性
             </dt>
-            <dd>しんりょく</dd>
+            <dd>カラフル</dd>
           </div>
         </dl>
       </div>
